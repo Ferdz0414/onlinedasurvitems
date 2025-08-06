@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    outline: auto;
+}
+:root{
+    --background: white;
+    --second--background: #96bf96;
+    --button--background: #00412e;
+    --text--color: black;
+}
+
+header{
+    background: var(--second--background);
+    padding: 1.5rem;
+    
+}
+.navbar ul{
+    justify-content: right;
+    align-items: center;
+    display: flex;
+    gap: 5rem;
+    padding-right: 10rem;
+    
+}
+nav ul li{
+    text-align: right;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    flex-wrap: wrap;
+}
