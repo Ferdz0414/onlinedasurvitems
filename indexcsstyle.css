@@ -29,6 +29,16 @@ nav ul li{
     text-align: right;
     display: flex;
     cursor: pointer;
-    position: relative;
-    flex-wrap: wrap;
+}
+
+/*home item */
+.home-Items{
+    max-width: auto;
+    min-width: 75rem;
+    background: var(--button--background);
+}
+.about-Items{
+    max-width: auto;
+    min-width: 75rem;
+    background: var(--background);
 }
