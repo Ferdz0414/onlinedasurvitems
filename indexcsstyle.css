@@ -51,6 +51,8 @@ nav ul li a{
     text-decoration: none;
     color: black;
     font-size: 1rem;
+    flex: 1;
+    cursor: pointer;
 }
 nav .cart-icon{
     position: relative;
@@ -73,4 +75,58 @@ nav .cart-icon .cart-items-count{
     display: none; 
 }
 
-/*home item */
+/*Home Item */
+.home-Items{
+    width: 90%;
+    height: 100vh;
+    padding: 2.5rem;
+    justify-content: center;
+
+}
+.home-Items h1{
+    font-size: 2.5rem;
+}
+/*Shop Item */
+.shop-Items{
+    width: 90%;
+    height: 100vh;
+    padding: 2.5rem;
+    justify-content: center;
+
+}
+.shop-Items h1{
+    font-size: 2.5rem;
+}
+/*Cart Item */
+.cart-Items{
+    width: 90%;
+    height: 100vh;
+    padding: 2.5rem;
+    justify-content: center;
+
+}
+.cart-Items h1{
+    font-size: 2.5rem;
+}
+/*Blog */
+.blog{
+    width: 90%;
+    height: 100vh;
+    padding: 2.5rem;
+    justify-content: center;
+
+}
+.blog h1{
+    font-size: 2.5rem;
+}
+/*Blog */
+.contact{
+    width: 90%;
+    height: 100vh;
+    padding: 2.5rem;
+    justify-content: center;
+
+}
+.contact h1{
+    font-size: 2.5rem;
+}
