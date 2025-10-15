@@ -50,10 +50,22 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: black;
-    font-size: 1rem;
+    font-size: 1.2rem;
     flex: 1;
     cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
 }
+nav ul li a:hover{
+    background-color: #99e2cc;
+    padding: 10px;
+    width: 30%;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 10px;
+}
+
 nav .cart-icon{
     position: relative;
     font-size: 1.5rem;
@@ -85,6 +97,15 @@ nav .cart-icon .cart-items-count{
 }
 .home-Items h1{
     font-size: 2.5rem;
+    padding: 10px;
+    width: 20vw;
+    margin-top: 20px;
+    border: inset 10px rgb(48, 130, 238);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    background: #6dbeec;
+    color: #000000;
 }
 /*Shop Item */
 .shop-Items{
