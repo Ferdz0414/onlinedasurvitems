@@ -3,11 +3,12 @@
     padding: 0%;
 }
 body{
-    background: var(--background);
+    background: var(--second--background);
 }
 :root{
     --background: white;
-    --second--background: #96bf96;
+    --second--background: rgb(12, 12, 12);
+    --header--background: #96bf96;
     --button--background: #00412e;
     --text--color-black: black;
     --text--color-white: rgb(255, 255, 255);
@@ -20,7 +21,7 @@ nav {
     left: 0;
     width: 100%;
     padding: 10px;
-    background: var(--second--background);
+    background: var(--header--background);
     box-shadow: inset 0 0 10px var(--button--background);
     display: flex;
     justify-content: space-between;
@@ -59,10 +60,10 @@ nav ul li a{
 nav ul li a:hover{
     background-color: #99e2cc;
     padding: 10px;
-    width: 30%;
     font-size: 18px;
     cursor: pointer;
-    transition: 0.3s ease;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
     border-radius: 10px;
 }
 
@@ -90,12 +91,17 @@ nav .cart-icon .cart-items-count{
 /*Home Item */
 .home-Items{
     width: 90%;
-    height: 100vh;
+    max-height: 100vh;
     padding: 2.5rem;
     justify-content: center;
 
 }
-.home-Items h1{
+.home-Items span{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+span h1{
     font-size: 2.5rem;
     padding: 10px;
     width: 20vw;
@@ -106,6 +112,22 @@ nav .cart-icon .cart-items-count{
     font-weight: 900;
     background: #6dbeec;
     color: #000000;
+    flex-grow: 1;
+    flex-basis: 200; 
+}
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+}
+.product-list .items{
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+.product-list .items img{
+    width: 90%;
+    height: 50vh;
 }
 /*Shop Item */
 .shop-Items{
@@ -117,6 +139,15 @@ nav .cart-icon .cart-items-count{
 }
 .shop-Items h1{
     font-size: 2.5rem;
+    padding: 10px;
+    width: 25vw;
+    margin-top: 20px;
+    border: inset 10px rgb(238, 184, 123);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    background: #eb8644;
+    color: #000000;
 }
 /*Cart Item */
 .cart-Items{
@@ -128,6 +159,15 @@ nav .cart-icon .cart-items-count{
 }
 .cart-Items h1{
     font-size: 2.5rem;
+    padding: 10px;
+    width: 25vw;
+    margin-top: 20px;
+    border: inset 10px rgb(233, 231, 146);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    background: #e7e428;
+    color: #000000;
 }
 /*Blog */
 .blog{
@@ -139,6 +179,15 @@ nav .cart-icon .cart-items-count{
 }
 .blog h1{
     font-size: 2.5rem;
+    padding: 10px;
+    width: 25vw;
+    margin-top: 20px;
+    border: inset 10px rgb(154, 159, 235);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    background: #826ce2;
+    color: #000000;
 }
 /*Blog */
 .contact{
@@ -149,7 +198,16 @@ nav .cart-icon .cart-items-count{
 
 }
 .contact h1{
-    font-size: 2.5rem;
+   font-size: 2.5rem;
+    padding: 10px;
+    width: 30vw;
+    margin-top: 20px;
+    border: inset 10px rgb(235, 154, 211);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    background: #e12de7;
+    color: #000000;
 }
 footer{
     width: 100%;
