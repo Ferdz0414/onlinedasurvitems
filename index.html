@@ -133,13 +133,13 @@
 
     <!--Shop Design and Section-->
     <section class="shop-Items" id="shop">
-        <h1>Latest Shop Collection</h1>  
-        <div class="w3-content w3-display-container" style="max-width: 800px;">
-            <img class="mySlides" src="/f1.jpg" alt="product-items" style="width:100%;">
-            <img class="mySlides" src="/f2.jpg" alt="product-items" style="width:100%;">
-            <img class="mySlides" src="/f3.jpg" alt="product-items" style="width:100%;">
-            <img class="mySlides" src="/f4.jpg" alt="product-items" style="width:100%;">
-            <img class="mySlides" src="/f5.jpg" alt="product-items" style="width:100%;">
+        <span><h1>Latest Shop Collection</h1></span>
+        <div class="w3-content w3-display-container" style="max-width: 250px;">
+            <img class="mySlides" src="/f1.jpg" alt="product-items" style="width:100%; height: 10%;">
+            <img class="mySlides" src="/f2.jpg" alt="product-items" style="width:100%; height: 10%;">
+            <img class="mySlides" src="/f3.jpg" alt="product-items" style="width:100%; height: 10%;">
+            <img class="mySlides" src="/f4.jpg" alt="product-items" style="width:100%; height: 10%;">
+            <img class="mySlides" src="/f5.jpg" alt="product-items" style="width:100%; height: 10%;">
             <div class="w3-center w3-container w3-large w3-text-white w3-display-bottommiddle" style="width: 100%;">
         <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
         <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
@@ -184,7 +184,7 @@ function plusDivs(n){
     showDivs(slideIndex += n);
 }
 
-function plusDivs(n){
+function currentDiv(n){
     showDivs(slideIndex = n);
 }
 

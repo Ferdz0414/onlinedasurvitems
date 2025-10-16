@@ -176,7 +176,7 @@ span h1{
 .shop-Items h1{
     font-size: 2.5rem;
     padding: 10px;
-    width: 25vw;
+    width: 400px;
     margin-top: 20px;
     border: inset 10px rgb(238, 184, 123);
     text-align: center;
@@ -184,6 +184,20 @@ span h1{
     font-weight: 900;
     background: #eb8644;
     color: #000000;
+}
+.shop-Items span h1{
+    font-size: 2.5rem;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    border: inset 10px rgb(48, 130, 238);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    background: #6dbeec;
+    color: #000000;
+    flex-grow: 1;
+    flex-basis: 200; 
 }
 .mySlides{
     display: none;
