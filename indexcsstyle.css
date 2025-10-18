@@ -269,6 +269,8 @@ button:nth-child(3):hover{
     width: 40%;
     height: 100%;
     padding: 10px;
+    border-radius: 10px;
+    text-align: center;
 }
 /*Blog */
 .blog{
