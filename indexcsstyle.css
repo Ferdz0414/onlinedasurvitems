@@ -1,10 +1,9 @@
 *{
     margin: 0;
     padding: 0%;
-    box-sizing: border-box;
 }
 body{
-    background: var(--second--background);
+    background: var(--background);
 }
 :root{
     --background: white;
@@ -14,7 +13,13 @@ body{
     --text--color-black: black;
     --text--color-white: rgb(255, 255, 255);
 }
-
+.darkmode{
+    background: var(--second--background);
+    
+}
+.darkmode span h1{
+    color: var(--text--color-white);
+}
 /*Navbar Link List */
 nav {
     position: fixed; /*positioning fixed of navbar*/
@@ -69,15 +74,15 @@ nav ul li a:hover{
 
 nav .cart-icon{
     position: relative;
-    font-size: 1.5rem;
-    left: -90px;
+    font-size: 2.5rem;
+    right: -300px;
     color: var(--text--color-white);
 }
 nav .cart-icon .cart-items-count{
     position: absolute;
     top: 0;
-    right: -6px;
-    width: 20px;
+    right: 7px;
+    width: 2.5rem;
     height: 20px;
     background: #00412e;   
     border-radius: 50%;
@@ -97,24 +102,17 @@ nav .cart-icon .cart-items-count{
     overflow: hidden;  
 
 }
-.home-Items span{
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-}
 span h1{
     font-size: 2.5rem;
     padding: 10px;
     width: 20vw;
     margin-top: 20px;
-    border: inset 10px rgb(48, 130, 238);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 900;
-    background: #6dbeec;
-    color: #000000;
     flex-grow: 1;
     flex-basis: 200; 
+    color: var(--text--color-black);
 }
 .product-list{
     display: grid;
@@ -170,34 +168,20 @@ span h1{
     width: 90%;
     height: 100vh;
     padding: 2.5rem;
-    justify-content: center;
 
 }
-.shop-Items h1{
-    font-size: 2.5rem;
-    padding: 10px;
-    width: 400px;
-    margin-top: 20px;
-    border: inset 10px rgb(238, 184, 123);
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 900;
-    background: #eb8644;
-    color: #000000;
-}
-.shop-Items span h1{
+span h1{
     font-size: 2.5rem;
     padding: 10px;
     width: 100%;
     margin-top: 20px;
-    border: inset 10px rgb(48, 130, 238);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 900;
-    background: #6dbeec;
-    color: #000000;
+    color: var(--text--color-black);
     flex-grow: 1;
-    flex-basis: 200; 
+    flex-basis: 200;
+    right: 10px;
 }
 .mySlides{
     display: none;
@@ -220,17 +204,20 @@ span h1{
     justify-content: center;
 
 }
-.cart-Items h1{
+.cart-Items span{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+span h1{
     font-size: 2.5rem;
     padding: 10px;
     width: 25vw;
     margin-top: 20px;
-    border: inset 10px rgb(233, 231, 146);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 900;
-    background: #e7e428;
-    color: #000000;
+    color: var(--text--color-black);
 }
 /*Blog */
 .blog{
@@ -240,17 +227,20 @@ span h1{
     justify-content: center;
 
 }
-.blog h1{
+.blog span{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+span h1{
     font-size: 2.5rem;
     padding: 10px;
     width: 25vw;
     margin-top: 20px;
-    border: inset 10px rgb(154, 159, 235);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 900;
-    background: #826ce2;
-    color: #000000;
+    color: var(--text--color-black);
 }
 /*Blog */
 .contact{
@@ -260,25 +250,30 @@ span h1{
     justify-content: center;
 
 }
-.contact h1{
+.contact span{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+span h1{
    font-size: 2.5rem;
     padding: 10px;
     width: 30vw;
     margin-top: 20px;
-    border: inset 10px rgb(235, 154, 211);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 900;
-    background: #e12de7;
-    color: #000000;
+    color: var(--text--color-black);
 }
 footer{
-    width: 100%;
-    height: 2.5vh;
+    min-width: 50rem;
+    height: 5vh;
     background-color: #3eb491;
 }
 footer p{
     font-size: 1.1rem;
     letter-spacing: 0.5;
     margin-left: 10px;
+    text-align: center;
+    padding: 10px;
 }

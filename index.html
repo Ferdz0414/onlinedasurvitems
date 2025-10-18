@@ -22,13 +22,12 @@
             <li><a href="#faqs">Faq's</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="#">Sign up</a></li>
-            <li><a id="toggleforlightmode">Light Mode</a></li>
-        </ul>
+            <li><a onclick="toggledarkmode() ">Dark Mode</a></li>
             <a href="cartshop.html" class="cart-icon">
                 <i class="fa-solid fa-bag-shopping"></i>
                 <span class="cart-items-count"></span>
             </a>
-
+        </ul>
 
         </nav>
     </header>
@@ -134,12 +133,24 @@
     <!--Shop Design and Section-->
     <section class="shop-Items" id="shop">
         <span><h1>Latest Shop Collection</h1></span>
-        <div class="w3-content w3-display-container" style="max-width: 250px;">
-            <img class="mySlides" src="/f1.jpg" alt="product-items" style="width:100%; height: 10%;">
-            <img class="mySlides" src="/f2.jpg" alt="product-items" style="width:100%; height: 10%;">
-            <img class="mySlides" src="/f3.jpg" alt="product-items" style="width:100%; height: 10%;">
-            <img class="mySlides" src="/f4.jpg" alt="product-items" style="width:100%; height: 10%;">
-            <img class="mySlides" src="/f5.jpg" alt="product-items" style="width:100%; height: 10%;">
+        <div class="w3-content w3-display-container" style="max-width: 500px; justify-content: center; align-items: center;">
+            <img class="mySlides" src="/img-shop/1.webp" alt="product-items" style="width:100%; height: 90%;">
+            <img class="mySlides" src="/img-shop/2.webp" alt="product-items" style="width:100%; height: 90%;">
+            <img class="mySlides" src="/img-shop/3.webp" alt="product-items" style="width:100%; height: 90%;">
+            <img class="mySlides" src="/img-shop/4.webp" alt="product-items" style="width:100%; height: 90%;">
+            <img class="mySlides" src="/img-shop/5.webp" alt="product-items" style="width:100%; height: 90%;">
+            <img class="mySlides" src="/img-shop/6.webp" alt="product-items" style="width:100%; height: 90%;">
+            <img class="mySlides" src="/img-shop/7.webp" alt="product-items" style="width:100%; height: 90%;">
+            <img class="mySlides" src="/img-shop/8.webp" alt="product-items" style="width:100%; height: 90%;">
+            <img class="mySlides" src="/img-shop/9.webp" alt="product-items" style="width:100%; height: 90%;">
+            <img class="mySlides" src="/img-shop/10.webp" alt="product-items" style="width:100%; height: 90%;">
+            <img class="mySlides" src="/img-shop/11.webp" alt="product-items" style="width:100%; height: 90%;">
+            <img class="mySlides" src="/img-shop/12.webp" alt="product-items" style="width:100%; height: 90%;">
+            <img class="mySlides" src="/img-shop/13.webp" alt="product-items" style="width:100%; height: 90%;">
+            <img class="mySlides" src="/img-shop/14.webp" alt="product-items" style="width:100%; height: 90%;">
+            <img class="mySlides" src="/img-shop/15.webp" alt="product-items" style="width:100%; height: 90%;">
+            <img class="mySlides" src="/img-shop/16.webp" alt="product-items" style="width:100%; height: 90%;">
+            <img class="mySlides" src="/img-shop/17.webp" alt="product-items" style="width:100%; height: 90%;">
             <div class="w3-center w3-container w3-large w3-text-white w3-display-bottommiddle" style="width: 100%;">
         <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
         <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
@@ -148,6 +159,18 @@
         <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
         <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
         <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(8)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(9)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(10)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(11)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(12)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(13)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(14)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(15)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(16)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(17)"></span>
         </div>
         </div>
     </section>
@@ -155,54 +178,25 @@
 
         <!--Cart Design and Section-->
     <section class="cart-Items" id="cart">
-        <h1>Latest Cart Collection</h1>  
+        <span><h1>Latest Cart Collection</h1></span>
         <div class="product-list"></div>     
     </section>
     <hr>
 
         <!--Blog Design and Section-->
     <section class="blog" id="blog">
-        <h1>Suggestion and Concern</h1>    
+        <span><h1>Suggestion and Concern</h1>    </span>
     </section>
     <hr>
 
         <!--Contact Design and Section-->
     <section class="contact" id="contact">
-        <h1>Contact Information of Shop </h1>  
+        <span><h1>Contact Information of Shop</h1></span> 
 
     </section>
     <footer>
         <p>Copyright <sup>© </sup>2025 by Ferdenand || All Rights Reserve.</p>
     </footer>
-
-
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n){
-    showDivs(slideIndex += n);
-}
-
-function currentDiv(n){
-    showDivs(slideIndex = n);
-}
-
-function showDivs(n){
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("demo");
-    if(n > x.length){slideIndex = 1}
-    if(n < 1){slideIndex = x.length}
-    for (i = 0; i < x.length; i++){
-        x[i].style.display = "none";
-    }
-    for (i = 0; i< dots.length; i++){
-        dots[i].className = dots[i].className.replace("w3-white", "");
-    }
-    x[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += "w3-white";
-}
-            </script>
+<script src="indexjavascript.js"></script>
 </body>
 </html>
