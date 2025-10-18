@@ -260,7 +260,7 @@ button:nth-child(2):hover{
     background: red;
     transition: all 1s ease-in-out;
 }
-button:last-child:hover{
+button:nth-child(3):hover{
     background: yellow;
     transition: all 1s ease-in-out;
     transform: scale(1);
