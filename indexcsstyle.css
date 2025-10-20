@@ -275,7 +275,7 @@ button:nth-child(3):hover{
 /*Blog */
 .blog{
     width: 90%;
-    height: 100vh;
+    height: 100%;
     padding: 2.5rem;
     justify-content: center;
 
@@ -294,6 +294,42 @@ span h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 900;
     color: var(--text--color-black);
+}
+.concern{
+    display: grid; 
+    width: 100%; 
+    height: 100%; 
+    justify-content: center; 
+    align-content: center;
+}
+form{
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    box-shadow: 10px 10px 10px 10px black;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+form .details{
+    flex: 4; flex-basis: 250px;
+}
+form .details input, textarea{
+    width: 100%; 
+    padding: 10px; 
+    border-radius: 10px; 
+    border: inset 10px 10px 10px whitesmoke;
+}
+.btn-form button{
+    background: green;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+form .btn-form:hover{
+    background: white;
 }
 /*Blog */
 .contact{
