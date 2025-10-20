@@ -234,7 +234,6 @@ span h1{
 }
 .card img{
     width: 80%;
-    height: 80%;
     position: relative;
     box-shadow: inset 0 0 10px black;
     background-color: white;
@@ -363,6 +362,5 @@ footer p{
     font-size: 1.1rem;
     letter-spacing: 0.5;
     margin-left: 10px;
-    text-align: center;
     padding: 10px;
 }
