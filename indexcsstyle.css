@@ -319,7 +319,8 @@ form .details input, textarea{
     border-radius: 10px; 
     border: inset 10px 10px 10px whitesmoke;
 }
-.btn-form button{
+
+.btn-form{
     background: green;
     padding: 10px;
     width: 50%;
@@ -327,7 +328,7 @@ form .details input, textarea{
     margin: 10px;
 
 }
-form .btn-form:hover{
+.btn-form:hover{
     background: white;
 }
 /*Blog */
