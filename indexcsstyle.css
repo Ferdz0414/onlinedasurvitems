@@ -443,13 +443,15 @@ input[type=text], input[type=number],input[type=email],input[type=password]{
     bottom: 0;
     right: 15px;
     border: 3px solid #f1f1f1;
+    
 }
-.chatbox-conatiner{
+.chatbox-contianer{
     max-width: 300px;
     padding: 10px;
-    background-color: white;   
+    background-color: white;
+    height: 50%;
 }
-.chatbox-conatiner textarea{
+.chatbox-contianer textarea{
     width: 100%;
     padding: 5px;
     margin: 15px auto 15px auto;
@@ -458,7 +460,7 @@ input[type=text], input[type=number],input[type=email],input[type=password]{
     resize: none;
     min-height: 10px;
 }
-.chatbox-conatiner .btn-chat{
+.chatbox-contianer .btn-chat{
     padding: 5px;
     width: 100px;
     border-radius: 10px;
@@ -466,10 +468,10 @@ input[type=text], input[type=number],input[type=email],input[type=password]{
     color: white;
     cursor: pointer;
 }
-.chatbox-conatiner .btn-chat:hover{
+.chatbox-contianer .btn-chat:hover{
     background: #3eb491;
 }
-.chatbox-conatiner .btn-chat-cancel{
+.chatbox-contianer .btn-chat-cancel{
     background: transparent;
     border: none;
     font-size: 18px;
