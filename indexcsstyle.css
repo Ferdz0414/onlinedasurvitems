@@ -443,6 +443,7 @@ input[type=text], input[type=number],input[type=email],input[type=password]{
     bottom: 0;
     right: 15px;
     border: 3px solid #f1f1f1;
+    overflow-y: scroll;
     
 }
 .chatbox-contianer{
