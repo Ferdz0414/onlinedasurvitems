@@ -1,3 +1,4 @@
+/*For Slide */
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -24,6 +25,21 @@ function showDivs(n){
     x[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += "w3-white";
 }
+
+/* For Dark Mode */
 function toggledarkmode(){
     document.body.classList.toggle("darkmode");
+}
+
+/* For Sign Up */
+var modal = document.getElementById('#signup');
+
+window.onclick = function(event){
+    if(event.target == modal){
+        modal.style.display = 'none';
+    }
+}
+
+function closeWin(){
+    document.getElementById('signup').style.display='none';
 }

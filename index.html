@@ -21,7 +21,7 @@
             <li><a href="#blog">Blog</a></li>
             <li><a href="#faqs">Faq's</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#">Sign up</a></li>
+            <li><a onclick="document.getElementById('signup').style.display='block'">Sign up</a></li>
             <li><a onclick="toggledarkmode()">Dark Mode</a></li>
             <a href="cartshop.html" class="cart-icon">
                 <i class="fa-solid fa-bag-shopping"></i>
@@ -282,7 +282,7 @@
 
                 <div class="details">
                     <label for="">Write your Concern or Suggestion</label>
-                    <textarea name="write-text" id="#" placeholder="Write....." cols="25px" required></textarea>
+                    <textarea name="write-text" id="#" placeholder="Write....." cols="25px" requiredgit></textarea>
                 </div>
                 <button class="btn-form">Submit</button>
             </form>
@@ -293,9 +293,54 @@
         <!--Contact Design and Section-->
     <section class="contact" id="contact">
         <span><h1>Contact Information of Shop</h1></span>
-
-
     </section>
+    <div class="register" >
+        <div class="signup" id="signup">
+            <form action="#" class="modal animate">
+            <a onclick="closeWin()" style="font-size: 18px; font-weight: 600; cursor: pointer;">X</a>                
+                <div class="detail">
+                    <label for="">FIRST NAME</label>
+                    <input type="text" placeholder="First Name" required>
+                </div>
+                
+                <div class="detail">
+                    <label for="">MiDDLE NAME</label>
+                    <input type="text" placeholder="Middle Name">
+                </div>
+
+                <div class="detail">
+                    <label for="">LAST NAME</label>
+                    <input type="text" placeholder="Last Name" required>
+                </div>
+                
+                 <div class="detail">
+                    <label for="">CONTACT NUMBER</label>
+                    <input type="number" placeholder="Contact Number" required>
+                </div>
+
+                 <div class="detail">
+                    <label for="">EMAIL ADDRESS</label>
+                    <input type="email" placeholder="Email Address" required>
+                </div>              
+
+                 <div class="detail">
+                    <label for="">PASSWORD</label>
+                    <input type="password" placeholder="PASSWORD" required>
+                </div>
+
+                 <div class="detail">
+                    <label for="">CONFIRM PASSWORD</label>
+                    <input type="password" placeholder="CONFIRM PASSWORD" required>
+                </div>
+                <div class="contianer-btn">
+                    <button>Sign Up</button>
+                </div>
+                <div class="cancel-btn">
+                    <button>Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
     <footer>
         <p>Copyright <sup>© </sup>2025 by Ferdenand || All Rights Reserve.</p>
     </footer>
