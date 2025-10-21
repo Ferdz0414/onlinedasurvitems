@@ -424,6 +424,57 @@ input[type=text], input[type=number],input[type=email],input[type=password]{
     from{-webkit-transform: scale(0)}
     to{-webkit-transform: scale(1)}
 }
+/*CHATBOT*/
+.open-chatbot{
+    background: rgb(136, 168, 238);
+    color: black;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 0;
+    right: 28px;
+    width: 280px;
+}
+.chat-pop{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+}
+.chatbox-conatiner{
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;   
+}
+.chatbox-conatiner textarea{
+    width: 100%;
+    padding: 5px;
+    margin: 15px auto 15px auto;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 10px;
+}
+.chatbox-conatiner .btn-chat{
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+    background: #00412e;
+    color: white;
+    cursor: pointer;
+}
+.chatbox-conatiner .btn-chat:hover{
+    background: #3eb491;
+}
+.chatbox-conatiner .btn-chat-cancel{
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    left: 20px;
+}
 
 /*Footer*/
 footer{

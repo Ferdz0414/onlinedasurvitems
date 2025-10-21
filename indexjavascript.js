@@ -60,3 +60,12 @@ window.onclick = function(event){
 function closeWin(){
     document.getElementById('signup').style.display='none';
 }
+
+/*For ChatBot */
+function chatForm(){
+    document.getElementById("chatbox").style.display='block';
+}
+
+function closeForm(){
+    document.getElementById("chatbox").style.display='none';
+}
