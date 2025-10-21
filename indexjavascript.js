@@ -1,3 +1,20 @@
+/*For Flip Card */
+var flipcards = document.querySelectorAll('.flip-card-inner');
+flipcards.forEach(card=>{
+    card.addEventListener('click', ()=>{
+        /*remove the flip card in other*/
+        flipcards.forEach(c => c.classList.remove('flipped'));
+
+        /*flip card when you click one item*/
+        card.classList.toggle('flipped');
+    });
+});
+
+
+
+
+
+
 /*For Slide */
 var slideIndex = 1;
 showDivs(slideIndex);
@@ -32,7 +49,7 @@ function toggledarkmode(){
 }
 
 /* For Sign Up */
-var modal = document.getElementById('#signup');
+var modal = document.getElementById('signup');
 
 window.onclick = function(event){
     if(event.target == modal){
