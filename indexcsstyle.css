@@ -364,7 +364,6 @@ span h1{
 }
 input[type=text], input[type=number],input[type=email],input[type=password]{
     width: 90%;
-    padding: 10px;
     display: inline-block;
     border: 1px solid #99e2cc;
     box-sizing: border-box;
@@ -391,13 +390,13 @@ input[type=text], input[type=number],input[type=email],input[type=password]{
     margin: 10px;
 }
 .detail{
-    margin: 25px;
+    margin: 10px;
 }
 .signup{
     display: none;
     position: fixed;
     z-index: 1;
-    top: 20px;
+    top: 50px;
     width: 60%;
     height: 100%;
     background-color: rgb(0, 0, 0), rgb(0,0,0.4);
