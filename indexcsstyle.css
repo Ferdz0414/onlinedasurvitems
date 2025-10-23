@@ -443,7 +443,6 @@ input[type=text], input[type=number],input[type=email],input[type=password]{
     bottom: 0;
     right: 15px;
     border: 3px solid #f1f1f1;
-    z-index: 9;
     overflow: hidden;
 }
 .chatbox-contianer{
@@ -462,7 +461,6 @@ input[type=text], input[type=number],input[type=email],input[type=password]{
     border: none;
     background: #f1f1f1;
     resize: none;
-    min-height: 10px;
 }
 #messages{
     width: 100%;
@@ -522,3 +520,4 @@ footer p{
     margin-left: 10px;
     padding: 10px;
 }
+/*FOR MOBILE*/

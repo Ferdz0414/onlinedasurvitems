@@ -62,7 +62,7 @@ function closeWin(){
 }
 
 /*For ChatBot */
-function chatForm(){
+function openForm(){
     document.getElementById("chatbox").style.display='block';
 }
 
