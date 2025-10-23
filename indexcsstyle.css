@@ -496,12 +496,18 @@ input[type=text], input[type=number],input[type=email],input[type=password]{
     margin-bottom: 10px;
     border: none;
     padding: 5px;
+    border-radius: 10px;
     width: auto;
+    overflow: hidden;
 }
 .bot-message{
     background: rgb(161, 245, 234);
     margin-bottom: 10px;
-    text-align: right;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    width: auto;
+    overflow: hidden;
 }
 
 /*Footer*/
