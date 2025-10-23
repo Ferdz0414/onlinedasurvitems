@@ -15,6 +15,7 @@
             <a href="index.html" class="logo">E-commerse</a>
 
         <ul>
+            <a onclick="togglemenu()"><i class="fa-solid fa-bars menubar"></i></a>
             <li><a href="index.html">Home</a></li>
             <li><a href="#shop">Shop</a></li>
             <li><a href="#cart">Cart</a></li>
@@ -346,18 +347,20 @@
 
     <!-- For Chatbot -->
         <button class="open-chatbot" onclick="openForm()">CHAT</button>
-            
-            <div class="chat-pop" id="chatbox">
-                <form action="#" class="chatbox-contianer">
-                <button class="btn-chat-cancel" onclick="closeForm()">&times;</button>
-                    <h1>CHAT <label for="msg">Message</label></h1>
-                    <div id="messages"></div>
-                    <textarea name="msg" placeholder="Write the message" id="inputchatbot"></textarea>
-                    <button></button>
-                    <button class="btn-chat send" id="btn-chat">SEND</button>
+            <div class="chat">
+                <div class="chat-pop" id="chatbox">
+                    <form action="#" class="chatbox-contianer">
+                    <button class="btn-chat-cancel" onclick="closeForm()">&times;</button>
+                        <h1>CHAT <label for="msg">Message</label></h1>
+                        <div id="messages"></div>
+                        <textarea name="msg" placeholder="Write the message" id="inputchatbot"></textarea>
+                        <button></button>
+                        <button class="btn-chat send" id="btn-chat">SEND</button>
                     
                 </form>
             </div>
+            </div>
+
 
      <!--Footer-->
     <footer>
