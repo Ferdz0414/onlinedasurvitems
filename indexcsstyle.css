@@ -478,6 +478,15 @@ input[type=text], input[type=number],input[type=email],input[type=password]{
     font-size: 18px;
     left: 20px;
 }
+.user-message{
+    background: rgb(128, 172, 238);
+    margin-bottom: 10px;
+}
+.bot-message{
+    background: rgb(161, 245, 234);
+    margin-bottom: 10px;
+    text-align: right;
+}
 
 /*Footer*/
 footer{
