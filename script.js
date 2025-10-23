@@ -1,3 +1,5 @@
+
+/* For Chatbot */
 let messages = document.getElementById('messages');
 let inputchatbot = document.getElementById('inputchatbot');
 let btnchat = document.getElementById('btn-chat');
@@ -31,7 +33,7 @@ function generateMessages(message){
                         "magandang gabi":"Magandang Gabi, may hinahanap kaba Design",
                         "magandang tanghali":"Magandang Tanghli",
                         "magandang hapon":"Magandang Hapon",
-                        ",araming salamat po":"Maraming Salamat din po",
+                        "maraming salamat po":"Maraming Salamat din po",
                         "paalam":"Paalam din sayo at Mag ingat ka",
                         "salamat":"Salamat",
                         "maari mo ba ako matulungan":"Oo naman ano ba ang iyong nais na tulong",
