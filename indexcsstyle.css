@@ -443,15 +443,18 @@ input[type=text], input[type=number],input[type=email],input[type=password]{
     bottom: 0;
     right: 15px;
     border: 3px solid #f1f1f1;
-    overflow-y: scroll;
     z-index: 9;
+    
+    
 }
 .chatbox-contianer{
     max-width: 300px;
     padding: 10px;
     background-color: white;
     height: 50%;
-     z-index: 9;
+    overflow-y: scroll;
+    max-height: 400px;
+    
 }
 .chatbox-contianer textarea{
     width: 100%;
@@ -480,6 +483,7 @@ input[type=text], input[type=number],input[type=email],input[type=password]{
     font-size: 18px;
     left: 20px;
 }
+
 .user-message{
     background: rgb(128, 172, 238);
     margin-bottom: 10px;
