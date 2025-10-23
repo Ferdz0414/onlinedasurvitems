@@ -69,3 +69,15 @@ function openForm(){
 function closeForm(){
     document.getElementById("chatbox").style.display='none';
 }
+
+let menuList = document.getElementById('menuList');
+menuList.style.maxHeight = '0px';
+
+function togglemenu(){
+    if(menuList.style.maxHeight == '0px'){
+        menuList.style.maxHeight = '850px';
+    }
+    else{
+        menuList.style.maxHeight = '0px';
+    }
+}
