@@ -546,6 +546,7 @@ footer p{
         background: var(--header--background);
         gap: 0;
         overflow: hidden;
+        z-index: 100;
     }
     nav ul li{
         padding: 10px;
@@ -558,6 +559,8 @@ footer p{
      nav ul li a:hover{
         background-color: #3eb491;
         transition: all 0.3s ease;
+        padding: 10px;
+        border-radius: 10px;
      }
      nav .cart-icon{
         cursor: pointer;
