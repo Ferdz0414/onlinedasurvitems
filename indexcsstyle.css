@@ -16,7 +16,7 @@ body{
 .darkmode{
     background: var(--second--background);
     transition: all var(--second--background) 0.3s ease;
-    transition: all var(--text--color-white) 0.3s ease;
+    
     
 }
 .darkmode span h1{
@@ -109,9 +109,8 @@ nav .cart-icon .cart-items-count{
 
 /*Home Item */
 .home-Items{
-    width: 90%;
+    width: 100%;
     height: 100%;
-    padding: 2.5rem;
     justify-content: center;
     overflow: hidden;  
 
@@ -181,10 +180,8 @@ span h1{
 }
 /*Shop Item */
 .shop-Items{
-    width: 90%;
+    width: 100%;
     height: 100%;
-    padding: 2.5rem;
-
 }
 span h1{
     font-size: 2.5rem;
@@ -214,9 +211,8 @@ span h1{
 
 /*Cart Item */
 .cart-Items{
-    width: 90%;
+    width: 100%;
     height: 100%;
-    padding: 2.5rem;
     justify-content: center;
     overflow: hidden;  
 }
@@ -289,9 +285,8 @@ button:nth-child(3):hover{
 }
 /*Blog */
 .blog{
-    width: 90%;
+    width: 100%;
     height: 100%;
-    padding: 2.5rem;
     justify-content: center;
 
 }
@@ -318,12 +313,14 @@ span h1{
     align-content: center;
 }
 form{
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    box-shadow: 10px 10px 10px 10px black;
-    width: 100%;
-    height: 100%;
+    box-shadow: 2px 5px 2px 5px rgba(0,0,0,0.2);
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 10px;
     padding: 20px;
+    gap: 20px;
 
 }
 form .details{
@@ -338,10 +335,9 @@ form .details input, textarea{
 
 .btn-form{
     background: green;
-    padding: 10px;
-    width: 50%;
     border-radius: 10px;
-    margin: 10px;
+    width: 40%;
+    height: 50%;
 
 }
 .btn-form:hover{
@@ -349,9 +345,8 @@ form .details input, textarea{
 }
 /*Blog */
 .contact{
-    width: 90%;
+    width: 100%;
     height: 100%;
-    padding: 2.5rem;
     justify-content: center;
 
 }
@@ -446,7 +441,7 @@ input[type=text], input[type=number],input[type=email],input[type=password]{
     opacity: 0.8;
     position: fixed;
     bottom: 0;
-    right: -28px;
+    right: 28px;
     width: 280px;
     border-radius: 10px;
 }
@@ -463,15 +458,14 @@ input[type=text], input[type=number],input[type=email],input[type=password]{
     overflow: hidden;
     border-radius: 10px;
 }
-.chatbox-contianer{
+.chatbox-container{
     max-width: 300px;
     padding: 10px;
     background-color: white;
-    height: 50%;
-    overflow-y: scroll;
     max-height: 400px;
+    overflow-y: scroll;
 }
-.chatbox-contianer textarea{
+.chatbox-container textarea{
     width: 100%;
     padding: 5px;
     margin: 15px auto 15px auto;
@@ -481,13 +475,12 @@ input[type=text], input[type=number],input[type=email],input[type=password]{
 }
 #messages{
     width: 100%;
-    height: 50%;
     overflow: hidden;
     border: none;
     padding: 10px;
     border-radius: 10px;
 }
-.chatbox-contianer .btn-chat{
+.chatbox-container .btn-chat{
     padding: 5px;
     width: 100px;
     border-radius: 10px;
@@ -495,15 +488,14 @@ input[type=text], input[type=number],input[type=email],input[type=password]{
     color: white;
     cursor: pointer;
 }
-.chatbox-contianer .btn-chat:hover{
+.chatbox-container .btn-chat:hover{
     background: #3eb491;
 }
-.chatbox-contianer .btn-chat-cancel{
+.chatbox-container .btn-chat-cancel{
     background: transparent;
     border: none;
     font-size: 18px;
     left: 20px;
-    position: sticky;
 }
 
 .user-message{
@@ -527,8 +519,8 @@ input[type=text], input[type=number],input[type=email],input[type=password]{
 
 /*Footer*/
 footer{
-    min-width: 50rem;
-    height: 5%;
+    min-width: 100%;
+    height: auto;
     background-color: #3eb491;
 }
 footer p{
@@ -542,13 +534,12 @@ footer p{
     nav ul{
         position: absolute;
         top: 129px;
-        left: 0;
-        right: 0;
         flex-direction: column;
         background: var(--header--background);
         gap: 0;
         overflow: hidden;
         z-index: 100;
+        width: 50%;
     }
     nav ul li{
         padding: 10px;
@@ -556,7 +547,9 @@ footer p{
      nav ul li a{
         cursor: pointer;
         text-align: center;
-        margin-right: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
      }
      nav ul li a:hover{
         background-color: #3eb491;
@@ -567,7 +560,10 @@ footer p{
      nav .cart-icon{
         cursor: pointer;
         text-align: center;
-        margin-right: 300px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        
      }
     
     .menu-bar{
