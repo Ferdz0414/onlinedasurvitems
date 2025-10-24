@@ -585,4 +585,12 @@ footer p{
     width: 280px;
     position: fixed;
 }
+.chat-pop{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 150px;
+    border: 3px solid #f1f1f1;
+    overflow: hidden;
+}
 }
