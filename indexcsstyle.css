@@ -4,7 +4,6 @@
 }
 body{
     background: var(--background);
-    overflow: hidden;
 }
 :root{
     --background: white;
@@ -16,7 +15,7 @@ body{
 }
 .darkmode{
     background: var(--second--background);
-        transition: all var(--second--background) 0.3s ease;
+    transition: all var(--second--background) 0.3s ease;
     transition: all var(--text--color-white) 0.3s ease;
     
 }
