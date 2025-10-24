@@ -574,26 +574,4 @@ footer p{
     #menuList{
         transition: all 0.5s ease;
     }
-    /* FOR CHATBOT */
-    .open-chatbot{
-    background: rgb(136, 168, 238);
-    color: black;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    opacity: 0.8;
-    position: fixed;
-    bottom: 0;
-    right: 120px;
-    width: 280px;
-    position: fixed;
-}
-.chat-pop{
-    display: none;
-    position: fixed;
-    bottom: 0;
-    right: 150px;
-    border: 3px solid #f1f1f1;
-    overflow: hidden;
-}
 }
