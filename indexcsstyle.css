@@ -534,12 +534,13 @@ footer p{
     nav ul{
         position: absolute;
         top: 129px;
+        left: 0;
+        right: 0;
         flex-direction: column;
         background: var(--header--background);
         gap: 0;
         overflow: hidden;
         z-index: 100;
-        width: 50%;
     }
     nav ul li{
         padding: 10px;
