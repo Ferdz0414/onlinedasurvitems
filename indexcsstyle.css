@@ -556,7 +556,7 @@ footer p{
     }
      nav ul li a{
         cursor: pointer;
-        text-align: right;
+        text-align: center;
         margin-right: 300px;
      }
      nav ul li a:hover{
@@ -567,7 +567,7 @@ footer p{
      }
      nav .cart-icon{
         cursor: pointer;
-        text-align: right;
+        text-align: center;
         margin-right: 300px;
      }
     
