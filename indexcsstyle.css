@@ -28,7 +28,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 25px;
+    padding: 20px;
     background: var(--header--background);
     box-shadow: inset 0 0 10px var(--button--background);
     display: flex;
@@ -103,7 +103,6 @@ nav .cart-icon .cart-items-count{
 }
 .menu-bar i{
     font-size: 28px;
-    text-align: left;
     
 }
 
@@ -549,8 +548,22 @@ footer p{
         overflow: hidden;
     }
     nav ul li{
-        padding: 20px;
+        padding: 10px;
     }
+     nav ul li a{
+        cursor: pointer;
+        text-align: right;
+        margin-right: 300px;
+     }
+     nav ul li a:hover{
+        background-color: #3eb491;
+        transition: all 0.3s ease;
+     }
+     nav .cart-icon{
+        cursor: pointer;
+        text-align: right;
+        margin-right: 300px;
+     }
     
     .menu-bar{
         display: block;
@@ -558,4 +571,18 @@ footer p{
     #menuList{
         transition: all 0.5s ease;
     }
+    /* FOR CHATBOT */
+    .open-chatbot{
+    background: rgb(136, 168, 238);
+    color: black;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 0;
+    right: 120px;
+    width: 280px;
+    position: fixed;
+}
 }
